@@ -1,0 +1,37 @@
+{
+  "name": "gendiff",
+  "version": "1.0.0",
+  "description": "Compares two configuration files and shows a difference.",
+  "bin": {
+    "gendiff": "src/bin/gendiff.js"
+  },
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx -n --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-node",
+    "transform": {}
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-yevs/frontend-project-lvl2.git"
+  },
+  "author": "alex-yevs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alex-yevs/frontend-project-lvl2/issues"
+  },
+  "homepage": "https://github.com/alex-yevs/frontend-project-lvl2#readme",
+  "dependencies": {
+    "commander": "^5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jest": "^23.13.2",
+    "jest": "^26.0.1"
+  }
+}

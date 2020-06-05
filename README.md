@@ -1,0 +1,27 @@
+## frontend-project-lvl2
+
+This repository is the [Hexlet](https://ru.hexlet.io/professions/frontend/projects/46)'s training project of the frontend-developer profession.
+
+# Difference Calculator
+Compares two configuration files and shows a difference
+
+## Setup
+
+```sh
+$ make install
+$ sudo npm link
+```
+
+## Run
+
+```sh
+$ gendiff [options] <filepath1> <filepath2>
+```
+```sh
+Options:
+  -V, --version        output the version number
+  -f, --format [type]  output format
+  -h, --help           display help for command
+```
+## Example of the working on the flat JSON files
+[![asciicast](https://asciinema.org/a/qQK3qArtIRdCA1kvDbkmNBvg7.svg)](https://asciinema.org/a/qQK3qArtIRdCA1kvDbkmNBvg7)
