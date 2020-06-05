@@ -5,6 +5,9 @@ This repository is the [Hexlet](https://ru.hexlet.io/professions/frontend/projec
 # Difference Calculator
 Compares two configuration files and shows a difference
 
+![gendiff](https://github.com/alex-yevs/frontend-project-lvl2/workflows/gendiff/badge.svg)
+[![Maintainability](https://api.codeclimate.com/v1/badges/f499ef83c81c2b9b70ac/maintainability)](https://codeclimate.com/github/alex-yevs/frontend-project-lvl2/maintainability)
+
 ## Setup
 
 ```sh
