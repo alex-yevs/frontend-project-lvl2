@@ -27,5 +27,8 @@ Options:
   -f, --format [type]  output format
   -h, --help           display help for command
 ```
-## Example of the working on the flat JSON files
+## Example of the working on flat JSON files
 [![asciicast](https://asciinema.org/a/qQK3qArtIRdCA1kvDbkmNBvg7.svg)](https://asciinema.org/a/qQK3qArtIRdCA1kvDbkmNBvg7)
+
+## Example of the working on flat YAML files
+[![asciicast](https://asciinema.org/a/AByaWzRpHPhUVdkom2HEmvqAY.svg)](https://asciinema.org/a/AByaWzRpHPhUVdkom2HEmvqAY)
