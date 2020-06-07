@@ -10,6 +10,7 @@ describe('Flat files testing', () => {
   test.each([
     ['before.json', 'after.json', 'result.txt'],
     ['before.yaml', 'after.yaml', 'result.txt'],
+    ['before.ini', 'after.ini', 'result.txt'],
   ])('gendiff <%s> <%s>', (filename1, filename2, expected) => {
     expect(gendiff(getFixturePath(filename1), getFixturePath(filename2))).toBe(readFile(expected));
   });

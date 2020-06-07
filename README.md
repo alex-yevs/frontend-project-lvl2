@@ -31,4 +31,7 @@ Options:
 [![asciicast](https://asciinema.org/a/qQK3qArtIRdCA1kvDbkmNBvg7.svg)](https://asciinema.org/a/qQK3qArtIRdCA1kvDbkmNBvg7)
 
 ## Example of the working on flat YAML files
-[![asciicast](https://asciinema.org/a/AByaWzRpHPhUVdkom2HEmvqAY.svg)](https://asciinema.org/a/AByaWzRpHPhUVdkom2HEmvqAY)
+[![asciicast](https://asciinema.org/a/U2CR0X4LjKs6i3mqLE9rrHLzB.svg)](https://asciinema.org/a/U2CR0X4LjKs6i3mqLE9rrHLzB)
+
+## Example of the working on flat INI files
+[![asciicast](https://asciinema.org/a/9KPb42OfOxS3o3n4VYjpWwL65.svg)](https://asciinema.org/a/9KPb42OfOxS3o3n4VYjpWwL65)
