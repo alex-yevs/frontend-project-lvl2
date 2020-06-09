@@ -8,8 +8,13 @@ const makeUnion = (...rest) => {
   return [...uniqueItems];
 };
 
+
 const has = (object, key) => object != null && ({}).hasOwnProperty.call(object, key);
 
+
+const isObject = (value) => value != null && typeof value === 'object';
+
+
 export {
-  makeUnion, has,
+  makeUnion, has, isObject,
 };

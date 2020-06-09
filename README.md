@@ -27,6 +27,9 @@ Options:
   -f, --format [type]  output format
   -h, --help           display help for command
 ```
+## Example of the working with nested JSON, YAML, INI files
+[![asciicast](https://asciinema.org/a/6uFHf9W3Rowua5kdFaIidj6SC.svg)](https://asciinema.org/a/6uFHf9W3Rowua5kdFaIidj6SC)
+
 ## Example of the working on flat JSON files
 [![asciicast](https://asciinema.org/a/qQK3qArtIRdCA1kvDbkmNBvg7.svg)](https://asciinema.org/a/qQK3qArtIRdCA1kvDbkmNBvg7)
 
