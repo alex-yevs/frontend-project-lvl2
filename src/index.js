@@ -2,11 +2,10 @@ import fs from 'fs';
 import path from 'path';
 import { makeUnion, has, isObject } from './utils.js';
 import parse from './parsers.js';
-import buildResult from './stylish.js';
+import buildResult from './formatters/index.js';
 
 const buildDiff = (oldData, newData) => {
   const keys = makeUnion(Object.keys(oldData), Object.keys(newData));
-
   const diffs = keys.map((key) => {
     const oldValue = oldData[key];
     const newValue = newData[key];
@@ -31,7 +30,7 @@ const buildDiff = (oldData, newData) => {
   return diffs;
 };
 
-const genDiff = (filePath1, filePath2, format) => {
+const genDiff = (filePath1, filePath2, outputFormat) => {
   const data1 = fs.readFileSync(filePath1, 'utf8');
   const data2 = fs.readFileSync(filePath2, 'utf8');
 
@@ -42,7 +41,7 @@ const genDiff = (filePath1, filePath2, format) => {
   const parsedData2 = parse(data2, data2Format);
 
   const diffs = buildDiff(parsedData1, parsedData2);
-  const result = buildResult(diffs, format);
+  const result = buildResult(diffs, outputFormat);
 
   return result;
 };

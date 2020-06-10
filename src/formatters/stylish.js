@@ -1,4 +1,4 @@
-import { isObject } from './utils.js';
+import { isObject } from '../utils.js';
 
 const makeBlank = (depth) => '    '.repeat(depth);
 
@@ -42,14 +42,4 @@ const makeStylish = (diffs, depth = 0) => {
   return `{\n${result.join('\n')}\n${blank}}`;
 };
 
-
-const buildResult = (diffs, format) => {
-  switch (format) {
-    case 'stylish':
-      return makeStylish(diffs);
-    default:
-      throw new Error(`${format} is unsupported output format`);
-  }
-};
-
-export default buildResult;
+export default makeStylish;

@@ -24,17 +24,17 @@ $ gendiff [options] <filepath1> <filepath2>
 ```sh
 Options:
   -V, --version        output the version number
-  -f, --format [type]  output format
+  -f, --format [type]  output format: [stylish, plain, json] (default: "stylish")
   -h, --help           display help for command
 ```
 ## Example of the working with nested JSON, YAML, INI files
-[![asciicast](https://asciinema.org/a/6uFHf9W3Rowua5kdFaIidj6SC.svg)](https://asciinema.org/a/6uFHf9W3Rowua5kdFaIidj6SC)
+[![asciicast](https://asciinema.org/a/ulu6sF8JWj894mRb0TFxQNwBT.svg)](https://asciinema.org/a/ulu6sF8JWj894mRb0TFxQNwBT)
 
-## Example of the working on flat JSON files
+## Example of the working with flat JSON files
 [![asciicast](https://asciinema.org/a/qQK3qArtIRdCA1kvDbkmNBvg7.svg)](https://asciinema.org/a/qQK3qArtIRdCA1kvDbkmNBvg7)
 
-## Example of the working on flat YAML files
+## Example of the working with flat YAML files
 [![asciicast](https://asciinema.org/a/U2CR0X4LjKs6i3mqLE9rrHLzB.svg)](https://asciinema.org/a/U2CR0X4LjKs6i3mqLE9rrHLzB)
 
-## Example of the working on flat INI files
+## Example of the working with flat INI files
 [![asciicast](https://asciinema.org/a/9KPb42OfOxS3o3n4VYjpWwL65.svg)](https://asciinema.org/a/9KPb42OfOxS3o3n4VYjpWwL65)
