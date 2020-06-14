@@ -3,14 +3,14 @@ import ini from 'ini';
 
 const parse = (data, dataFormat) => {
   switch (dataFormat) {
-    case '.json':
+    case 'json':
       return JSON.parse(data);
-    case '.yaml' || '.yml':
+    case 'yaml' || 'yml':
       return yaml.safeLoad(data);
-    case '.ini':
+    case 'ini':
       return ini.parse(data);
     default:
-      throw new Error(`'${dataFormat}' is unsupported format`);
+      throw new Error(`'${dataFormat}' is unsupported file format`);
   }
 };
 

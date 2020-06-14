@@ -1,16 +1,16 @@
-import { isObject } from '../utils.js';
+import _ from 'lodash';
 
 const makeBlank = (depth) => '    '.repeat(depth);
 
 
 const formatValue = (value, depth) => {
-  if (!isObject(value)) {
+  if (!_.isObject(value)) {
     return value;
   }
   const blank = makeBlank(depth + 1);
   const result = Object.entries(value)
     .map(([key, keyValue]) => {
-      const calcValue = isObject(keyValue) ? formatValue(keyValue, depth + 1) : keyValue;
+      const calcValue = _.isObject(keyValue) ? formatValue(keyValue, depth + 1) : keyValue;
       return `${blank}    ${key}: ${calcValue}`;
     });
   return `{\n${result.join('\n')}\n${blank}}`;
